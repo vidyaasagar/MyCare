@@ -1,0 +1,22 @@
+{
+  "name": "mycare",
+  "version": "1.0.0",
+  "description": "Healthcare application backend",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.5.3",
+    "dotenv": "^10.0.0",
+    "jsonwebtoken": "^9.1.0",
+    "bcrypt": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.2.1"
+  },
+  "author": "vidyaasagar",
+  "license": "ISC"
+}
